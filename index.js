@@ -49,3 +49,4 @@ if ((buz1+buz2+buz3)<0) {
 //ex5 
 const abb = 1
 const abbbbb = 33
+const avvvv = 27
