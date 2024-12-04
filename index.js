@@ -171,7 +171,6 @@
 //  == opartors
 //  === operator ghdee data type
 
-
 // const useg = prompt("usegnuud");
 // if (useg == 'a' || useg == "e" || useg == "y" || useg == "u" || useg == "o") {
 //   console.log("vowel");
@@ -179,4 +178,76 @@
 //   console.log("consonant");
 // }
 
+//4
+
+// const tseng = prompt("unelgee")
+// if (tseng > 90) {
+//   console.log("A")
+// } else if (tseng > 80 && tseng < 90) {
+//   console.log("B")
+// } else if (tseng > 70 && tseng < 80) {
+//   console.log("C")
+// } else if (tseng > 60 && tseng < 70) {
+//   console.log("D")
+// } else if (tseng < 60) {
+//   console.log("F")
+// }
+
+// 5
+
+// Write a JavaScript program to determine if a person is an adult, teenager, or child based on their age.
+
+// const nas = prompt("nas")
+// if (nas < 13) {
+//   console.log("child")
+// } else if (nas > 13 && nas < 20) {
+//   console.log("teenager")
+// } else if (nas > 20) {
+//   console.log("adult and above")
+// }
+
+// 6 ?????
+
+// Write a JavaScript program to check if a given number is divisible by 5 or 7.
+
+// const huvaah = prompt("5,7");
+// if (huvaah % 7 && huvaah % 5) {
+//   console.log(huvaah, "is divisible by both 5 and 7");
+// } else if (huvaah % 5) {
+//   console.log(huvaah, "is divisible by 7");
+// } else if (huvaah % 7) {
+//   console.log(huvaah, "is divisible by 5");
+// }
+
+//7
+//  the given time is in the morning (0-11), afternoon (12-17), or evening (18-23).
+
+// const times = prompt("times")
+// if (times>0 && times<12) {
+//   console.log("the morning")
+// } else if (times>12 && times<18) {
+//   console.log("afternoon")
+// } else if (times>18 && times<24) {
+//   console.log("night")
+// }
+
+//8   ????
+
+// const double = prompt("double");
+// if ( double > 10) {
+//   console.log("double digit");
+// } else if (double < 10) {
+//   console.log("one digit");
+// } else if (double == 10) {
+//   console.log("double digit");
+// }
+
+//9  ??????
+
+// const duruv = prompt("4");
+// if (duruv % 4) {
+//   console.log(duruv, "is not a multiple of 4");
+// } else {
+//   console.log(duruv ,"is a multiple of 4");
+// }
 
