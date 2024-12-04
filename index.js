@@ -47,4 +47,5 @@ if ((buz1+buz2+buz3)<0) {
   console.log("+")
 }
 //ex5 
+const abb = 1
 
