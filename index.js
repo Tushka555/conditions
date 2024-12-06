@@ -448,6 +448,14 @@
 // Example Output:
 // 1 3 5 7 9 11 13 15
 
+// for (i = 1; i <= 15; i++) {
+//   if (i % 2 !== 0) {
+//     console.log(i);
+//   } else {
+//     console.log()
+//   }
+// }
+
 // Exercise 14
 
 // Check if a Number is Prime Write a loop to check if a number n is prime.
@@ -455,22 +463,38 @@
 // let n = 7;
 // Example Output:
 // 7 is a prime number
-
-// Exercise 15
+// let n = 7;
+// let isPrime = true;
+// for (i = 2; i <= n - 1; i++) {
+//   if (n % i == 0) {
+//     isPrime = false
+//   }
+// }
+// console.log("is Prime number:", isPrime, n)
+// // Exercise 15
 
 // Reverse a String Write a loop to reverse the characters in a string.
 
 // let str = "javascript";
 // Example Output:
 // tpircsavaj
+// let str = "javascript";
+// for (i=(str.length)-1; i>=0; i--){
+//   console.log(str.charAt(i))
+// }
 
-// Exercise 16
-
-// Calculate Power of a Number Write a loop to calculate base^exponent.
+// Calculate Power of a Number Write a loop to calculate base^exponent. originalStr.charAt(i)
 
 // let base = 2, exponent = 5;
 // Example Output:
 // 2^5 = 32
+// let base = 2;
+// let exponent = 5;
+// let num1 = 1;
+// for (let i = 0; i < exponent; i++) {
+//   num1 = num1 * base;
+// }
+// console.log(num1);
 
 // Exercise 17
 
@@ -478,6 +502,14 @@
 
 // Example Output:
 // 5 10 15 20 25 30 35 40 45 50
+let num1 = 5
+let num2 = 1
+for (i=0; i<=50; i++){
+  if (i % 5 === 0){
+    console.log(i);
+  }
+}
+
 
 // Exercise 18
 
