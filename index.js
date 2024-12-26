@@ -502,14 +502,13 @@
 
 // Example Output:
 // 5 10 15 20 25 30 35 40 45 50
-let num1 = 5
-let num2 = 1
-for (i=0; i<=50; i++){
-  if (i % 5 === 0){
-    console.log(i);
-  }
-}
-
+// let num1 = 5
+// let num2 = 1
+// for (i=0; i<=50; i++){
+//   if (i % 5 === 0){
+//     console.log(i);
+//   }
+// }
 
 // Exercise 18
 
@@ -518,6 +517,21 @@ for (i=0; i<=50; i++){
 // let arr = [3, 67, 15, 98, 23];
 // Example Output:
 // Largest number: 98
+
+
+let arr = [3, 67, 15, 98, 23];
+
+// Initialize the largest number as the first element in the array
+let largest = arr[0];
+
+// Loop through the array starting from the second element
+for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > largest) {
+        largest = arr[i];
+    }
+}
+
+console.log("Largest number:", largest);
 
 // Exercise 19
 
